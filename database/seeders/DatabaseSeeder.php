@@ -1,7 +1,5 @@
 <?php
-
 namespace Database\Seeders;
-
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
@@ -20,7 +18,7 @@ class DatabaseSeeder extends Seeder
 
         //crear usuario de prueba cada que se ejecuten migraciones
         User::factory()->create([
-            'name' => 'joel andrade',
+            'name' => 'fer urcelay',
             'email' => 'fer@gmail.com',
             'password' => bcrypt('12345678'),
         ]);
