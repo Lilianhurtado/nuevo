@@ -6,5 +6,5 @@
 
     ['name' => 'Profile'],
 ]">
-    Hola Iris xd
+    Funciona
 </x-admin-layout>
